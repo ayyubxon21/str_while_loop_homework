@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i = 0
+    a = 0
+    while i<len(s):
+        if s[i].islower():
+            a+=1
+        i+=1
+    return a
+print(main("Fifa World Cup Brazil"))
