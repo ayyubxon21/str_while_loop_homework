@@ -13,4 +13,4 @@ def main(s):
             a+=1
         i+=1
     return a
-print(main("Fifa World Cup Brazil"))
+print(main("Fifa World Cup Russia"))
