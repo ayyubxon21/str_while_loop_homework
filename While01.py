@@ -9,8 +9,8 @@ def main(s):
     i = 0
     a = 0
     while i < len(s):
-        if s[i].isalpha():
+        if s[i].isdigit():
             a+=1
         i+=1
     return a
-print(main("Samarqand ff20221030"))
+print(main("Samarqand 20221030"))
