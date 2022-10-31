@@ -10,9 +10,8 @@ def main(s):
     i = 0
     a = 0
     while i<len(s):
-        if s[i]:
+        if s[i]  in string.punctuation:
             a+=1
         i+=1
     return a
-print(main("$%#$##"))
-print(string.punctuation)
+print(main("$%jhug#$#yu76r6f#"))
