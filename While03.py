@@ -9,8 +9,8 @@ def main(s):
     i = 0
     a = 0
     while i<len(s):
-        if s[i].isupper():
-            a+=1
+        if s[i].strip():
+            a
         i+=1
     return a
-print(main("Fifa World Cup Brazil"))
+print(main("Fifa World Cup Br$%^azil"))
